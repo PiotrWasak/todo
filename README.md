@@ -1,5 +1,7 @@
 # todo
 
+LIVE: https://wasak.ga/TODO/
+
 ## Project setup
 ```
 npm install
