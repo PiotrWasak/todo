@@ -12,9 +12,11 @@
       id="taskInput"
     />
     <br />
-    <button  @click="addTask" type="submit" class="curr-btn curr-btn-normal-outlined-primary">
-      Submit
-    </button>
+
+      <SyncfusionButton  @click.native="addTask" cssClass="curr-btn curr-btn-normal-filled-primary curr-icon-before-plus">
+        Button Normal Filled Primary
+      </SyncfusionButton>
+
     <br />
     <ul class="list-group">
       <li
