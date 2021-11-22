@@ -8,11 +8,11 @@
       @keyup.enter="addTask"
       v-model="task"
       type="text"
-      class="form-control"
+      class="form-control curr-input-normal-outlined"
       id="taskInput"
     />
     <br />
-    <button @click="addTask" type="submit" class="btn btn-primary">
+    <button  @click="addTask" type="submit" class="curr-btn curr-btn-normal-outlined-primary">
       Submit
     </button>
     <br />
@@ -36,7 +36,7 @@ export default {
   name: "TODO",
   data() {
     return {
-      tasks: ["Create TODO app"],
+      tasks: ["Create TODO app", "Task2"],
       task: "",
     };
   },
@@ -56,21 +56,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-fas {
-  float: right;
-}
+
 </style>
